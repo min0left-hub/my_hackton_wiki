@@ -1,0 +1,7 @@
+# Actual exam/project artifacts must stay outside the public preparation repository.
+.env
+.env.*
+!.env.example
+node_modules/
+*.log
+.runtime.json
