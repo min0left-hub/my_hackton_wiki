@@ -14,6 +14,7 @@ AI와 과제를 진행할 때 참가자의 판단을 보존하고, 요구사항�
 - [AGENTS.md](AGENTS.md): 공통 원칙과 승인 경계
 - [START_PROMPT.md](START_PROMPT.md): 새 세션에서 읽을 시작 지침
 - [.agents/skills/requirements-planning/SKILL.md](.agents/skills/requirements-planning/SKILL.md): 경량 기획·요구사항 정리
+- [.agents/skills/analyze-data/SKILL.md](.agents/skills/analyze-data/SKILL.md): 요청받은 데이터 분석·그래프·대시보드의 데이터 품질·집계·시각화 점검
 - [.agents/skills/verify-work/SKILL.md](.agents/skills/verify-work/SKILL.md): 실제 결과 검증
 - [.agents/skills/fix-errors/SKILL.md](.agents/skills/fix-errors/SKILL.md): 실패 재현·원인 확인·최소 수정
 - [templates](templates): 과제별 기록을 시작할 빈 양식
@@ -25,3 +26,7 @@ AI와 과제를 진행할 때 참가자의 판단을 보존하고, 요구사항�
 
 ## 시험 중 사용
 공개 저장소에는 범용 지침과 빈 양식만 유지합니다. 실제 과제 문제·개인 응시 링크·첨부자료·대화·코드·로그·완성된 위키는 시험 작업 공간에만 두고 이 저장소로 업로드하거나 Git Push하지 않습니다. 공개 자료의 허용 범위와 공개 유지 기간은 최신 운영 안내를 따르세요. 이 저장소를 읽었다고 Skill이 설치·인식됐다고 주장하지 않습니다. 지원되지 않으면 필요한 SKILL.md를 직접 읽혀 사용합니다. 실제 제출 문서와 파일명은 과제 안내가 우선입니다.
+
+## 데이터 분석이 필요한 경우
+참가자가 먼저 과제를 해석한 뒤 필요한 범위만 요청합니다. 예: `analyze-data Skill을 읽고 제공 데이터의 품질과 집계 기준을 확인해줘. 아직 웹서비스는 구현하지 마.`
+계산·그래프 작성까지 원하면 그 범위를 함께 지시합니다. Skill 파일을 받았다고 자동 발견·설치가 보장되지는 않으며, 인식되지 않으면 해당 SKILL.md를 직접 읽도록 요청합니다.
